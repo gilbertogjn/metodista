@@ -18,6 +18,8 @@ public class TesteMemoria {
         System.gc();
         
         System.out.println("Memoria livre..: " + rt.freeMemory());
+        
+        System.out.println("Teste de memória concluido");
     }
     
 }
